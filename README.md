@@ -1,4 +1,4 @@
-# NLP - Stopword Removal
+# Stopword Removal in NLP
 ### App Link
 - https://nlp-stopword-removal.streamlit.app/
 ---
