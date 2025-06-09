@@ -24,7 +24,7 @@
 - **`nltk`**
 - **`streamlit`**
 ---
-### How the App Works
+### How the App Works -
 - **Input:**
 ```
 text = "This is a basic example to understand stopword removal."
@@ -35,7 +35,7 @@ Filtered: ["basic", "example", "understand", "stopword", "removal", "."]
 ```
 - The common words like "**this**", "**is**", "**a**", "**to**" are removed.
 ---
-### Some Curious Points
+### Additional Insights :
 - Stopwords vary **based on language**.
 - We can customize **our own stopword list**.
 - Some NLP tasks (like translation) **prefer keeping stopwords**.
