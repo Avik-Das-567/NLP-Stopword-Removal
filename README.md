@@ -6,9 +6,7 @@
 - **Stopwords** are common words like "**is**", "**the**", "**and**", "**in**", "**at**", etc.
 - These words **don't carry important meaning** in most text analysis tasks.
 - **Stopword removal** means removing such words from text before analysis.
-- **Real-Life Example:-**
-
-  If someone says:
+- **Example Sentence:**
   > "The product is very good and useful."
 
   After removing stopwords, the result becomes:
@@ -26,8 +24,15 @@
 - **`nltk`**
 - **`streamlit`**
 ---
-### Output of the Code
-`Filtered: ['basic', 'example', 'understand', 'stopword', 'removal', '.']`
+### How the App Works
+- **Input:**
+```
+text = "This is a basic example to understand stopword removal."
+```
+- **Output:**
+```
+Filtered: ["basic", "example", "understand", "stopword", "removal", "."]
+```
 - The common words like "**this**", "**is**", "**a**", "**to**" are removed.
 ---
 ### Some Curious Points
