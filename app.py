@@ -15,4 +15,5 @@ words = word_tokenize(text)
 # Remove stopwords
 filtered_words = [w for w in words if w.lower() not in stopwords.words('english')]
 
-st.write("Filtered:", filtered_words)
+st.write("Input Text =", text)
+st.write("After removing Stopwords, Output is :", filtered_words)
